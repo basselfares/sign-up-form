@@ -1,7 +1,9 @@
 body {
     margin: 0;
+    background-color: rgb(250, 250, 250);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
-
 
 .container {
     display: flex;
@@ -16,12 +18,21 @@ body {
 .text-container {
     width: 50vw;
     margin-top: 15vh;
-    padding-left: 5vw;
+    padding-left: 2vw;
 }
 
-.text1 {
-    padding-top: 5vh;
-    margin-bottom: 20px;
+.text1, .text2 {
+    padding-top: 2vh;
+    margin-top: 3vh;
+    padding-bottom: 2vh;
+}
+
+form, .text2 {
+    width: 60vw;
+    margin-left: -2vw;
+    padding-left: 2vw;
+    background-color: white;
+    box-shadow: 2px 6px 4px rgb(230, 230, 230);
 }
 
 form > div{
@@ -42,3 +53,13 @@ input {
     margin-bottom: 20px;
 }
 
+.create {
+    background-color: rgb(94, 108, 76);
+    border-radius: 7px;
+    color: white;
+    width: 13vw;
+    height: 5vh;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 2vh;
+}
